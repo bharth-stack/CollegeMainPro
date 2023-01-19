@@ -37,9 +37,17 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'corsheaders',
+    # Custom apps
+    'accounts',
+    'expense',
+    'meetup',
+    'djoser'
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -121,3 +129,19 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CORS_ORIGIN_ALLOW_ALL = True
+
+
+# DJOSER = {
+#     'LOGIN_FIELD':'email',
+#     'USER_CREATE_PASSWORD_RETYPE': True,
+#     'SEND_CONFIRMATION_EMAIL': True,
+#     'SEND_ACTIVATION_EMAIL': False,
+#     'SERIALIZERS':{
+#         'user_create': 'accounts.serializers.UserCreateSerializers',
+#         'user': 'accounts.serializers.UserCreateSerializer',
+#         'current_user':'accounts.serializers.UserCreateSerializers',
+#         'user_delete': 'djoser.serializers.UserDeleteSerializer',
+#     }
+# }
