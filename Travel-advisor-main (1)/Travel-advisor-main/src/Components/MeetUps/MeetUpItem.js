@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import React from "react";
 import Card from "../UI/Card";
 import classes from "./meetupitem.module.css";
 // import FavoritesContext from "../../store/favouriates-context";

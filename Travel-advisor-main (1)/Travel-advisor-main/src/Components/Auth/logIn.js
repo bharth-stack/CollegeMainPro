@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import React, { useState, useRef } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import classes from "./Auth.module.css";
 import MainNavigation from "../MainPage/header";
@@ -15,6 +15,13 @@ const AuthForm = () => {
     setIsLogin((prevState) => !prevState);
     emailInputRef.current.value = "";
     passwordInputRef.current.value = "";
+
+    try {
+      // axios
+    } catch (error) {
+      console.log(error)
+    }
+
   };
   const submitHandler = (event) => {
     event.preventDefault();

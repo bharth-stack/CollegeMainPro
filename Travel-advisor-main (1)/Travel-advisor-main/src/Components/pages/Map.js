@@ -30,12 +30,6 @@ const Mapty = () => {
   }, []);
 
   useEffect(() => {
-    const filtered = places?.filter((place) => Number(place.rating) > rating);
-
-    setFilteredPlaces(filtered);
-  }, [rating]);
-
-  useEffect(() => {
     if (bounds) {
       setIsLoading(true);
 
