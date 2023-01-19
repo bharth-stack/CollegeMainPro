@@ -1,0 +1,67 @@
+.main_input {
+  position: relative;
+  top: 10rem;
+  left: 4rem;
+  padding: 0.7rem;
+  border: 0.2rem solid black;
+  color: #333;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.main_input_2 {
+  position: relative;
+  top: 10rem;
+  left: 7rem;
+  padding: 0.7rem;
+  border: 0.2rem solid black;
+  color: #333;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.main_input_3 {
+  position: relative;
+  top: 10rem;
+  left: 13rem;
+  padding: 0.7rem;
+  border: 0.2rem solid black;
+  color: #333;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.main_input_4 {
+  position: relative;
+  top: 14rem;
+  left: 4rem;
+  padding: 0.7rem;
+  border: 0.2rem solid black;
+  color: #333;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-weight: 700;
+  width: 24%;
+}
+.main_input_4_label {
+  position: relative;
+  left: 2rem;
+}
+
+.main_input_5 {
+  position: relative;
+  top: 11em;
+  left: 25rem;
+  padding: 0.7rem;
+  border: 0.2rem solid black;
+  color: #333;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-weight: 700;
+  width: 24%;
+}
+.main_input_5_label {
+  position: relative;
+  left: 2rem;
+}
