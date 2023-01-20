@@ -1,5 +1,5 @@
 """
-ASGI config for Travel_advice project.
+ASGI config for Travel_Advice project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Travel_advice.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Travel_Advice.settings')
 
 application = get_asgi_application()
